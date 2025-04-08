@@ -1,8 +1,14 @@
+import './App.css';
+
+
 function App() {
   return (
     <div className="App">
-      <h1>Barbosa</h1>
-      <h2>Enterprise Software Development</h2>
+      <header className="App-header">
+        <h1 className="title">BARBOSA</h1>
+        <h2 className="subtitle">Enterprise Software Development</h2>
+        <div className="neon-line"></div>
+      </header>
     </div>
   );
 }
